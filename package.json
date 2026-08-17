@@ -1,0 +1,31 @@
+{
+  "name": "shopnest-ecom-mern",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev:server": "npm --prefix backend run dev",
+    "dev:client": "npm --prefix frontend start",
+    "dev": "concurrently \"npm:dev:server\" \"npm:dev:client\"",
+    "start": "npm --prefix frontend start",
+    "seed": "npm --prefix backend run seed",
+    "install:all": "npm --prefix backend install && npm --prefix frontend install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alokkushwaha08/ShopNest-Ecom-MERN.git"
+  },
+  "keywords": [
+    "alok kumar",
+    "microservice"
+  ],
+  "author": "alok",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alokkushwaha08/ShopNest-Ecom-MERN/issues"
+  },
+  "homepage": "https://github.com/alokkushwaha08/ShopNest-Ecom-MERN#readme",
+  "dependencies": {
+    "concurrently": "^10.0.5"
+  }
+}
